@@ -1,0 +1,5 @@
+name: 'Check version against tag'
+description: 'Compares the version in pyproject.toml with the latest git tag and fails if they are different'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
